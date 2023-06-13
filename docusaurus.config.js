@@ -4,17 +4,23 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+// const path = require('path');
+// module.exports = {
+//   // ...
+//     plugins: [path.resolve(__dirname, './node_modules/@theme-original/SearchBar')],
+// }
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: `Naveen's Cheatsheet`,
+  tagline: 'The 2-Minute Cheat Sheet and Blog Bonanza!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://snghnaveen.github.io/cheatsheet',
+  url: 'https://snghnaveen.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/cheatsheet',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -23,6 +29,8 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  plugins: [require.resolve('docusaurus-lunr-search')],
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -42,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/snghnaveen/cheatsheet/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -64,9 +72,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: `Naveen's Cheatsheet`,
         logo: {
-          alt: 'My Site Logo',
+          alt: `Naveen's Cheatsheet Logo`,
           src: 'img/logo.svg',
         },
         items: [
@@ -74,15 +82,15 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Cheatsheet',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/snghnaveen/cheatsheet',
             label: 'GitHub',
             position: 'right',
           },
-        ],
+        ], 
       },
       footer: {
         style: 'dark',
@@ -91,7 +99,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Cheatsheet',
                 to: '/docs/intro',
               },
             ],
@@ -100,17 +108,9 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/snghnaveen/',
+              }
             ],
           },
           {
@@ -122,12 +122,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/snghnaveen/cheatsheet',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `${new Date().getFullYear()} | Built with Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,

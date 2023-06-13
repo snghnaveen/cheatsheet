@@ -1,0 +1,8 @@
+{
+  "label": "Golang",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "A concise cheatsheet for Golang backend development, covering essential concepts, syntax, tools, and interview preparation."
+  }
+}
