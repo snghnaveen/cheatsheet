@@ -1,0 +1,8 @@
+{
+  "label": "Interview",
+  "position": 1000,
+  "link": {
+    "type": "generated-index",
+    "description": "A concise cheatsheet for frequently asked interview questions."
+  }
+}
