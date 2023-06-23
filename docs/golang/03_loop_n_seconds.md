@@ -4,9 +4,9 @@ sidebar_position: 3
 
 # Loop n seconds
 
-To loop until a certain number of seconds have passed in Go, you can use the time package and the time.After function. Here's an example:
+In this example, we specify the number of seconds we want to loop until with the variable n.
 
-In this example, we specify the number of seconds we want to loop until with the variable n. We get the current time using time.Now(). Then, we calculate the target time by adding n seconds to the start time using start.Add(time.Duration(n) * time.Second).
+To loop until a certain number of seconds have passed in Go, you can use the time package and the time.After function. Here's an example:
 
 ```go
 package main

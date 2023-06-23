@@ -8,3 +8,4 @@ Welcome to my concise cheatsheet blog for Golang and backend tools. This cheatsh
 
 I've curated a collection of key topics frequently covered in Golang interviews. From data structures and algorithms to concurrency, error handling, and database interactions, you'll find concise explanations, code snippets, and practical examples.
 
+You may find that few topic's answer is generated using ChatGPT.
