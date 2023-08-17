@@ -46,3 +46,50 @@ console.log(editedHobbies[1]); // Cooking!
 const objHobbies = hobbies.map((item) => ({text : item}))
 console.log(objHobbies[1]); // { text: 'Cooking' }
 ```
+
+### Destructuring 
+```js
+const name = ["naveen", "singh"];
+
+// const fName = name[0];
+// const lName = name[1];
+// console.log(fName, lName); // naveen singh
+
+const [fname, lname] = name;
+console.log(fname, lname); // naveen singh
+
+
+const usr = {
+    name : "snghnaveen",
+    age: 45
+}
+
+// name = usr.name
+// age = usr.age
+
+const {name: Username, age} = usr
+console.log(Username, age) // snghnaveen
+```
+
+### Spread Operator
+
+```js
+hobbies = ["Sports", "Music", "Painting"];
+moreHobbies = ["Reading"];
+
+mergedHobbies = [...hobbies, ...moreHobbies];
+console.log(mergedHobbies) // [ 'Sports', 'Music', 'Painting', 'Reading' ]
+
+
+const usr = {
+    name : "nav",
+    age : 28
+}
+
+const extUsr = {
+    gender : "male",
+    ...usr
+}
+
+console.log(extUsr); // { gender: 'male', name: 'nav', age: 28 }
+```
