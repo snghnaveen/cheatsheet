@@ -93,3 +93,21 @@ const extUsr = {
 
 console.log(extUsr); // { gender: 'male', name: 'nav', age: 28 }
 ```
+
+### Array functions
+- reduce
+  ```js
+     const message = ["JavaScript ", "is ", "not ", "fun."];
+    // function to join each string elements
+    function joinStrings(accumulator, currentValue) {
+      console.log("accumulator", accumulator, "currentValue",currentValue);
+    // accumulator JavaScript  currentValue is 
+    // accumulator JavaScript is  currentValue not 
+    // accumulator JavaScript is not  currentValue fun.
+      return accumulator + currentValue;
+    }
+    
+    // reduce join each element of the string
+    let joinedString = message.reduce(joinStrings);
+    console.log(joinedString); // JavaScript is not fun.
+  ```
