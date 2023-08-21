@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - 18
+
+# Install yarn
+before_install:
+  - npm install -g yarn
+
+# Install dependencies
+install:
+  - yarn install
+
+# Build the React app
+script:
+  - yarn build
+
+# Run the build only for pull requests
+if: type = pull_request
