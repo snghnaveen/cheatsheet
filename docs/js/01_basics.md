@@ -148,3 +148,12 @@ console.log(extUsr); // { gender: 'male', name: 'nav', age: 28 }
     console.log(animals.slice());
     // Expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
   ```
+
+### Import/Export
+https://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-es6-import
+
+When should I use curly braces for ES6 import?
+ - The brackets are golden when you need only specific components from the module.
+
+![image](https://github.com/snghnaveen/cheatsheet/assets/19979462/8944226b-387b-4166-a5a1-72b21c85c02e)
+
