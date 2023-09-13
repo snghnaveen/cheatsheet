@@ -71,6 +71,16 @@ const {name: Username, age} = usr
 console.log(Username, age) // snghnaveen
 ```
 
+### Anonmous function
+```js
+function() {
+ }
+```
+or
+```js
+( () => {} )();
+```
+
 ### Spread Operator
 
 ```js
@@ -157,3 +167,7 @@ When should I use curly braces for ES6 import?
 
 ![image](https://github.com/snghnaveen/cheatsheet/assets/19979462/8944226b-387b-4166-a5a1-72b21c85c02e)
 
+### package.json
+```js
+https://stackoverflow.com/a/25861938
+```
