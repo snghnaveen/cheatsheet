@@ -23,9 +23,9 @@ export default ExpenseItem;
 
 ### Pass props
 ```jsx
+  <Concept {img={concepts[0].img} title={concepts[0].title} }></Concept>
 ``` 
-or   <Concept {img={concepts[0].img} title={concepts[0].title} }></Concept>
-
+or
 
 ```jsx
   <Concept {...concepts[0]}></Concept>
