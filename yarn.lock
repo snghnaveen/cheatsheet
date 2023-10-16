@@ -3541,10 +3541,10 @@ dns-packet@^5.2.2:
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
-docusaurus-lunr-search@2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/docusaurus-lunr-search/-/docusaurus-lunr-search-2.4.1.tgz#73419d4700cd69e3521525b20494fb31ba12b6c4"
-  integrity sha512-UOgaAypgO0iLyA1Hk4EThG/ofLm9/JldznzN98ZKr7TMYVjMZbAEaIBKLAUDFdfOPr9D5EswXdLn39/aRkwHMA==
+docusaurus-lunr-search@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/docusaurus-lunr-search/-/docusaurus-lunr-search-3.2.0.tgz#a8ff8a25c74b6217a3e5a51271b5a98a0bda244e"
+  integrity sha512-js+cvQN8VlUIgH1fLeeKoweTc0rKYjvt2di/RpqUw8rKA+EkerQmEfxaj/p4Z/3chc+rHY8c40I6ibuBQVobpQ==
   dependencies:
     autocomplete.js "^0.37.0"
     clsx "^1.2.1"
@@ -3554,6 +3554,7 @@ docusaurus-lunr-search@2.4.1:
     hogan.js "^3.0.2"
     lunr "^2.3.8"
     lunr-languages "^1.4.0"
+    mark.js "^8.11.1"
     minimatch "^3.0.4"
     object-assign "^4.1.1"
     rehype-parse "^7.0.1"
@@ -5208,6 +5209,11 @@ make-dir@^3.0.0, make-dir@^3.0.2, make-dir@^3.1.0:
   integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
   dependencies:
     semver "^6.0.0"
+
+mark.js@^8.11.1:
+  version "8.11.1"
+  resolved "https://registry.yarnpkg.com/mark.js/-/mark.js-8.11.1.tgz#180f1f9ebef8b0e638e4166ad52db879beb2ffc5"
+  integrity sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==
 
 markdown-escapes@^1.0.0:
   version "1.0.4"
