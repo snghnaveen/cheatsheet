@@ -4,12 +4,6 @@
 const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
-// const path = require('path');
-// module.exports = {
-//   // ...
-//     plugins: [path.resolve(__dirname, './node_modules/@theme-original/SearchBar')],
-// }
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: `Naveen's Cheatsheet`,
