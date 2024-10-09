@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 9
 ---
 
-# Golang
+# Important Concepts
 <details>
   <summary>Len vs Cap</summary>
 
@@ -68,6 +68,7 @@ However, when working with an empty interface, keep in mind that you lose type s
 
 <details>
   <summary> Understanding Allocations: the Stack and the Heap </summary>
+
   https://www.youtube.com/watch?v=ZMZpH4yT7M0
 </details>
 
@@ -75,6 +76,7 @@ However, when working with an empty interface, keep in mind that you lose type s
 
 <details>
   <summary> Shallow Copy vs Deep Copy </summary>
+
   In Go, a deep copy and a shallow copy are two different ways of copying data from one variable to another. Let's understand the concepts with an example:
 
   ```go
@@ -132,6 +134,7 @@ However, when working with an empty interface, keep in mind that you lose type s
 
 <details>
   <summary> Pass by value vs Pass by reference </summary>
+
   In Go, all function arguments are passed by value by default. However, Go also provides a mechanism to pass arguments by reference using pointers. Let's explore both concepts: pass by value and pass by reference in Go.
 
 1. Pass by Value:
@@ -189,6 +192,7 @@ It's important to understand the difference between pass by value and pass by re
 
 <details>
   <summary> Is slice pass by value?  </summary>
+
   In Go, slices are actually a reference type, so when you pass a slice to a function, it is passed by value, but the underlying data structure it refers to is not copied. This means that modifications made to the elements of a slice within a function will be reflected in the original slice.
 
 Let's see an example to better understand this behavior:
@@ -222,6 +226,7 @@ To summarize, slices are passed by value in Go, but since they hold a reference 
 
 <details>
   <summary> Explain Closure </summary>
+
   In Go, closures are a powerful feature that allows you to create anonymous functions that can access and manipulate variables defined outside their body. A closure binds the variables it references, ensuring their availability even after the surrounding function has finished executing.
 
 Here's an example to illustrate closures in Go:

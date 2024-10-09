@@ -2,7 +2,6 @@
   "label": "Git",
   "position": 3,
   "link": {
-    "type": "generated-index",
-    "description": "A concise cheatsheet git commands"
+    "type": "generated-index"
   }
 }

@@ -4,18 +4,18 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Focus',
+    title: 'About',
     description: (
       <>
-        Organized and categorized cheat sheets for different programming languages, frameworks, tools, and concepts.
+        This is a compilation of my personal guides and quick-reference materials.
       </>
     ),
   },
   {
-    title: 'Easy',
+    title: 'Inspiration',
     description: (
       <>
-        Concise and easy-to-understand information presented in a visually appealing format for quick reference and learning.
+        I created this to simplify my workflow and share the insights I've gained over time. In my work, I've frequently found myself looking for quick solutions, best practices, or reminders on complex subjects.
       </>
     ),
   },

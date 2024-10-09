@@ -1,8 +1,7 @@
 {
   "label": "JS",
-  "position": 4,
+  "position": 1001,
   "link": {
-    "type": "generated-index",
-    "description": "A concise cheatsheet for basic JS syntax."
+    "type": "generated-index"
   }
 }

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: `Naveen's Cheatsheet`,
-  tagline: 'The 2-Minute Cheat Sheet and Blog Bonanza!',
+  // tagline: 'M',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -46,13 +46,6 @@ const config = {
           editUrl:
             'https://github.com/snghnaveen/cheatsheet/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/snghnaveen/cheatsheet/tree/main/',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -64,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: `Naveen's Cheatsheet`,
+        title: `Home`,
         logo: {
           alt: `Naveen's Cheatsheet Logo`,
           src: 'img/logo.svg',
@@ -76,7 +69,6 @@ const config = {
             position: 'left',
             label: 'Cheatsheet',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/snghnaveen/cheatsheet',
             label: 'GitHub',
@@ -91,13 +83,13 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Cheatsheet',
-                to: '/docs/intro',
+                label: 'Main',
+                to: 'https://snghnaveen.github.io',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Connect',
             items: [
               {
                 label: 'Linkedin',
@@ -109,12 +101,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/snghnaveen/cheatsheet',
+                label: 'My GitHub',
+                href: 'https://github.com/snghnaveen',
               },
             ],
           },

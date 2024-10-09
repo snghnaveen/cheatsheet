@@ -18,5 +18,9 @@ sidebar_position: 1
     ```
 1. Reset single file : 
     ```bash
-    git checkout master -- filename
+    git checkout master -- /path/to/filename.txt
+    ```
+1. Update last commit : 
+    ```bash
+    git commit --amend
     ```
