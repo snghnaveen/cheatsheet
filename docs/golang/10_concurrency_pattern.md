@@ -2,10 +2,9 @@
 sidebar_position: 9
 ---
 
-## Common Concurrency Patterns in Go
+# Common Concurrency Patterns
 
-
-### 1️. Fan-Out / Fan-In
+### 1. Fan-Out / Fan-In
 
 Used to distribute work across multiple goroutines and combine results.
 
